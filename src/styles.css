@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+
+body {
+    line-height: 1;
+    font-family: 'Lato', sans-serif;
+}
+
+/* HTML Elements */
+
+li {
+    display: inline-block;
+    padding: 5px;
+}
+
+a:link, a:hover {
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+a:active, a:visited {
+    color: #fff;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Navbar Section */
+
+.navbar {
+    text-align: right;
+    background-color: #000;
+    padding: 10px;
+}
+
+/* Hero Section */
+
+.hero-title {
+    color: #3b4754;
+    padding: 10px;
+}
+
+.hero-picture {
+    padding-top: 20px;
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+}
+
+.hero-background {
+    background-color: #EDF0F4;
+    height: 50vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: #29313D;
+    color: #fff;
+    padding: 10px;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+/* Skills Section */
+
+.skills-header {
+    padding: 15px 0;
+}
+
+/* Project Section */
+
+.project-header {
+    padding: 30px 0;
+}
+
+
+.project-names {
+    padding-bottom: 16px;
+}
+.project-picture {
+    width: 500px;
+    height: 400px;
+}
+
+/* Footer Section */
+
+.footer-background {
+    background-color: #000;
+    /* width: 100%; */
+    height: 15vh;
+    margin-top: 20px;
+}
+
+ /* Box */
+
+
+ .container {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     column-gap: 80px;
+ }
+ .box {
+     border: solid black 5px;
+     padding-bottom: 20px;
+ }
+
+ .box p {
+    overflow-wrap: break-word;
+ }
